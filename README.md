@@ -54,5 +54,9 @@ Based on the EDA findings, I recommend the following business actions:
 * **Interactive Dashboard:** [View Freight & Profit Dashboard Here](https://public.tableau.com/app/profile/joseph.robertson1338/viz/dashboard_17900241268670/FREIGHTPROFITANALYTICS)
 * **SQL Architecture:** Review the `table_creation.sql`, `data_cleaning.sql`, and `Freight_Cost_Analysis.sql` scripts for the Star Schema setup, data standardisation, and analytical aggregations.
 
-**Author:** Joseph Robertson  
+--- 
+
+### Author: 
+
+Joseph Robertson  
 * http://linkedin.com/in/joseph-r-786b79429
