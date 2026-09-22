@@ -24,16 +24,16 @@ The objective of this project was to utilise SQL and Tableau to process and anal
 
 ### Insights
 
-**1. The "Delay vs. Profit Margin" Hypothesis**
+**1. The "Delay vs. Profit Margin" Hypothesis:**
 Initially, I hypothesised that extended delivery delays were the cause of reduced profit margins. However, mapping Average Delivery Delay against Profit Margin in Tableau revealed an R-squared value of 0.007 (P-value: 0.60). This indicates that delivery times are not impacting profit margin, allowing the business to redirect its focus toward raw shipping expenses.
 
-**2. Route Optimisation and Profitability**
+**2. Route Optimisation and Profitability:**
 Analysis revealed that profit margins were typically higher on shipping routes with high shipment volume. This suggests established routes were optimised, whereas low-volume routes remain highly inefficient and costly.
 
-**3. Nigeria Profit and Logistics**
+**3. Nigeria Profit and Logistics:**
 Nigeria is the company's most critical geographic market, generating the highest overall shipment volume and driving over $350 million in total revenue. However, this massive revenue stream masks a severe logistics leak: Nigeria also has the highest total freight costs (over $14.2M) and the second-highest average cost per shipment. This high unit cost could be driven by multiple factors, such as heavy volumetric weight, infrastructure bottlenecks, or localised fuel surcharges. 
 
-**4. Budget Leaks in Low-Volume Routes**
+**4. Budget Leaks in Low-Volume Routes:**
 SQL analysis isolated specific high freight costs in low-volume regions:
 * **Cameroon (Air Freight):** Costing nearly $1.44 million across just 61 shipments.
 * **Rwanda (Ocean Freight):** Averaging $31,984 per single shipment for ocean transport.
