@@ -16,7 +16,6 @@ WITH CleanedDates AS (
         NULLIF(CAST("Freight Cost (USD)" AS REAL), 0) AS freight_cost,
         
         -- Date Formatting: Standardise string dates into ('YYYY-MM-DD') format
-        -- to enable accurate date arithmetic (calculating days delayed) downstream.
         '20' || SUBSTR("Scheduled Delivery Date", -2, 2) || '-' || 
         CASE LOWER(SUBSTR("Scheduled Delivery Date", -6, 3))
             WHEN 'jan' THEN '01' WHEN 'feb' THEN '02' WHEN 'mar' THEN '03'
@@ -44,8 +43,7 @@ WITH CleanedDates AS (
     FROM fact_shipment
 )
 
--- Join dimensions back to the facts to create a flat, 
--- dataset ready for Tableau.
+-- Join dimensions back to the facts to create a flat, dataset
 SELECT 
     c.shipment_id,
     l.country,
