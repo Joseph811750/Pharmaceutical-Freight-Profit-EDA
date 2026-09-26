@@ -1,7 +1,7 @@
 # Pharmaceutical Freight & Profit Analytics (EDA)
 
 ### Project Overview
-The objective of this project was to utilise SQL and Tableau to process and analyse real-world global pharmaceutical supply chain data. By engineering a relational database and visualising the cleaned metrics, my goal was to investigate underlying logistics trends, isolate severe budget leaks, and provide data-driven strategic recommendations to improve profit margins.
+The objective of this project was to utilise SQL and Tableau to process and analyse real-world global pharmaceutical supply chain data. By engineering a Star schema in SQL and visualising the cleaned metrics in Tableau, my goal was to investigate underlying trends, identify potential budget leaks, and provide data-driven recommendations to improve profit margins.
 
 ---
 
